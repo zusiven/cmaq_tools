@@ -11,6 +11,14 @@ from wztools import fetch_nearest_point
 
 class AelmoExtractor:
     def __init__(self, aelmo_path: Path|str, cro2d_path: Path|str) -> None:
+        """
+        >>> aermo_extractor = AelmoExtractor(aelmo_path, cro2d_path)
+        >>> # 提取某点数据
+        >>> df = aermo_extractor.extract_data_by_lonlat(lon, lat)
+        >>>
+        >>> # 提起网格数据
+        >>> df_grid = aermo_extractor.extract_data()
+        """
         self.aelmo_path = Path(aelmo_path)
         self.cro2d_path = Path(cro2d_path)
 
@@ -116,7 +124,7 @@ if __name__ == "__main__":
     lat = 38
 
     aermo_extractor = AelmoExtractor(file_path, cro2d_path)
-    # aermo_extractor.show()
+
     aermo_extractor.extract_data()
     df = aermo_extractor.extract_data_by_lonlat(lon, lat)
     print(df)
