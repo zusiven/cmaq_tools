@@ -17,7 +17,7 @@ classifiers = [
     "Topic :: Scientific/Engineering :: Atmospheric Science",
 ]
 dependencies = [
-    "netcdf4>=1.7.4",
+    "netcdf4",
     "polars>=1.37.1",
     "pyproj>=3.7.2",
     "wztools>=2026.1.6",
