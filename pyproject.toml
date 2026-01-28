@@ -19,7 +19,7 @@ classifiers = [
 dependencies = [
     "netcdf4",
     "polars>=1.37.1",
-    "pyproj>=3.7.2",
+    "pyproj",
     "wztools>=2026.1.6",
     "xarray>=2025.4.0",
 ]
