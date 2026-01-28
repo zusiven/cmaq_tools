@@ -1,4 +1,4 @@
-# CAMQ Tools
+# CMAQ Tools
 
 一个用于从 AELMO NetCDF 文件中提取和处理空气质量模型数据的 Python 库。
 
@@ -11,7 +11,7 @@ pip install git+https://github.com/zusiven/cmaq_tools.git
 ## 使用方法
 
 ```python
-from camq_tools import AelmoExtractor
+from cmaq_tools import AelmoExtractor
 from pathlib import Path
 
 # 初始化提取器
