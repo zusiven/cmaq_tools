@@ -37,9 +37,9 @@ examples = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/your-org/camq-tools"
-Repository = "https://github.com/your-org/camq-tools.git"
-Documentation = "https://camq-tools.readthedocs.io/"
+Homepage = "https://github.com/zusiven/cmaq_tools"
+Repository = "https://github.com/zusiven/cmaq_tools.git"
+Documentation = "https://github.com/zusiven/cmaq_tools"
 
 [build-system]
 requires = ["hatchling"]

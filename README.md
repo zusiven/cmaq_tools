@@ -5,7 +5,7 @@
 ## 安装
 
 ```bash
-pip install camq-tools
+pip install git+https://github.com/zusiven/cmaq_tools.git
 ```
 
 ## 使用方法
